@@ -1,0 +1,2 @@
+INSERT INTO shopcakes.user (firstname, secondname, email, password, newsletter, role_id) VALUES ('Sergey', 'Malykhin', 'sergey@epam.com', 'Sergey123456789', 0, 2);
+INSERT INTO shopcakes.user (firstname, secondname, email, password, newsletter, role_id) VALUES ('Sergey', 'MMM', 'serg@epam.com', 'Serg123456789', 0, 2);

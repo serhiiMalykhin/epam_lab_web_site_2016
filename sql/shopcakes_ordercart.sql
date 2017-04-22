@@ -1,0 +1,17 @@
+INSERT INTO shopcakes.ordercart (id, title, description, price, srcImg, idType, idManufacture, count) VALUES (1, 'Cake4', 'Description Cake4', 5000, 'images/cakes/5.jpg', 1, 1, 3);
+INSERT INTO shopcakes.ordercart (id, title, description, price, srcImg, idType, idManufacture, count) VALUES (1, 'Cake5', 'Description Cake5', 200, 'images/cakes/6.jpg', 2, 2, 2);
+INSERT INTO shopcakes.ordercart (id, title, description, price, srcImg, idType, idManufacture, count) VALUES (1, 'Cake6', 'Description Cake6', 200, 'images/cakes/7.jpg', 3, 2, 1);
+INSERT INTO shopcakes.ordercart (id, title, description, price, srcImg, idType, idManufacture, count) VALUES (4, 'Cake0', 'Description Cake0', 70000, 'images/cakes/1.jpg', 1, 1, 1);
+INSERT INTO shopcakes.ordercart (id, title, description, price, srcImg, idType, idManufacture, count) VALUES (5, 'Cake2', 'Description Cake2', 9800, 'images/cakes/3.jpg', 2, 1, 1);
+INSERT INTO shopcakes.ordercart (id, title, description, price, srcImg, idType, idManufacture, count) VALUES (6, 'Cake0', 'Description Cake0', 70000, 'images/cakes/1.jpg', 1, 1, 1);
+INSERT INTO shopcakes.ordercart (id, title, description, price, srcImg, idType, idManufacture, count) VALUES (6, 'Cake1', 'Description Cake1', 1200, 'images/cakes/2.jpg', 1, 1, 1);
+INSERT INTO shopcakes.ordercart (id, title, description, price, srcImg, idType, idManufacture, count) VALUES (6, 'Cake5', 'Description Cake5', 200, 'images/cakes/6.jpg', 2, 2, 1);
+INSERT INTO shopcakes.ordercart (id, title, description, price, srcImg, idType, idManufacture, count) VALUES (6, 'Cake6', 'Description Cake6', 200, 'images/cakes/7.jpg', 3, 2, 1);
+INSERT INTO shopcakes.ordercart (id, title, description, price, srcImg, idType, idManufacture, count) VALUES (7, 'Cake1', 'Description Cake1', 1200, 'images/cakes/2.jpg', 1, 1, 1);
+INSERT INTO shopcakes.ordercart (id, title, description, price, srcImg, idType, idManufacture, count) VALUES (8, 'Cake1', 'Description Cake1', 1200, 'images/cakes/2.jpg', 1, 1, 2);
+INSERT INTO shopcakes.ordercart (id, title, description, price, srcImg, idType, idManufacture, count) VALUES (8, 'Cake2', 'Description Cake2', 9800, 'images/cakes/3.jpg', 2, 1, 2);
+INSERT INTO shopcakes.ordercart (id, title, description, price, srcImg, idType, idManufacture, count) VALUES (9, 'Cake1', 'Description Cake1', 1200, 'images/cakes/2.jpg', 1, 1, 2);
+INSERT INTO shopcakes.ordercart (id, title, description, price, srcImg, idType, idManufacture, count) VALUES (10, 'Cake7', 'Description Cake7', 9000, 'images/cakes/8.jpg', 1, 2, 2);
+INSERT INTO shopcakes.ordercart (id, title, description, price, srcImg, idType, idManufacture, count) VALUES (11, 'Cake2', 'Description Cake2', 9800, 'images/cakes/3.jpg', 2, 1, 6);
+INSERT INTO shopcakes.ordercart (id, title, description, price, srcImg, idType, idManufacture, count) VALUES (12, 'Cake23', 'Description Cake23', 200, 'images/cakes/24.jpg', 1, 1, 1);
+INSERT INTO shopcakes.ordercart (id, title, description, price, srcImg, idType, idManufacture, count) VALUES (12, 'Cake21', 'Description Cake21', 200, 'images/cakes/22.jpg', 1, 1, 1);

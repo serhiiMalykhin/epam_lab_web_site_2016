@@ -1,0 +1,2 @@
+INSERT INTO shopcakes.user_ban (iduser, timestart, block, attempt) VALUES (1, '2017-01-05 23:51:17', 0, 0);
+INSERT INTO shopcakes.user_ban (iduser, timestart, block, attempt) VALUES (2, '2017-04-22 21:54:14', 0, 0);

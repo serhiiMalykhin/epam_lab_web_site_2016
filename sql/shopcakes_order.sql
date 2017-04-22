@@ -1,0 +1,12 @@
+INSERT INTO shopcakes.`order` (iduser, date, idStatus, descriptionStatus, address, card) VALUES (2, 1482364350646, 0, 'Order formed by user', '12341234', '1234123412341234');
+INSERT INTO shopcakes.`order` (iduser, date, idStatus, descriptionStatus, address, card) VALUES (2, 1482671429067, 1, 'User confirmed order!', 'sfhsdfhdfghfhdfg', 'cash');
+INSERT INTO shopcakes.`order` (iduser, date, idStatus, descriptionStatus, address, card) VALUES (2, 1482671485089, 1, 'User confirmed order!', 'sfhnfgjkh', 'cash');
+INSERT INTO shopcakes.`order` (iduser, date, idStatus, descriptionStatus, address, card) VALUES (2, 1482671521490, 1, 'User confirmed order!', 'asdfgfhmgjhkjl', 'cash');
+INSERT INTO shopcakes.`order` (iduser, date, idStatus, descriptionStatus, address, card) VALUES (2, 1482712296072, 0, 'User canceled order!', 'Shopping', 'cash');
+INSERT INTO shopcakes.`order` (iduser, date, idStatus, descriptionStatus, address, card) VALUES (2, 1482866040936, 2, 'User confirmed order!', '200200200200', 'cash');
+INSERT INTO shopcakes.`order` (iduser, date, idStatus, descriptionStatus, address, card) VALUES (2, 1482866321364, 0, 'User canceled order!', '1200120012001200', 'cash');
+INSERT INTO shopcakes.`order` (iduser, date, idStatus, descriptionStatus, address, card) VALUES (2, 1482866748536, 0, 'User canceled order!', '1234123412341234', 'cash');
+INSERT INTO shopcakes.`order` (iduser, date, idStatus, descriptionStatus, address, card) VALUES (2, 1482867269480, 3, 'Order is saved into database', 'asdfgfhmgjhkjl', 'cash');
+INSERT INTO shopcakes.`order` (iduser, date, idStatus, descriptionStatus, address, card) VALUES (2, 1482867532461, 0, 'User canceled order!', 'sdwgresrtfd', 'cash');
+INSERT INTO shopcakes.`order` (iduser, date, idStatus, descriptionStatus, address, card) VALUES (2, 1482961145335, 2, 'User confirmed order!', 'sfhsdfhdfghfhdfg', 'cash');
+INSERT INTO shopcakes.`order` (iduser, date, idStatus, descriptionStatus, address, card) VALUES (2, 1492887394116, 2, 'User confirmed order!', '1234567891234567', 'cash');
