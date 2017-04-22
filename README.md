@@ -3,15 +3,15 @@
 To launch the application local needs:
 Need to create table into mysql database schema with name: 
 shopcakes, from main sql file and load data from other sql files.
-The next directory /**META-INF** contains file **context.xml** with property to mysql database
-need to change **username** and **password** to yours.
+The next directory <b>META-INF</b> contains file <b>context.xml</b> with property to mysql database
+need to change <b>username</b> and <b>password</b> to yours.
 Build the application by maven.
-At the end after success build, you will have a file with name **WebShop.war**.
-Put the file into /webapp in **Apache Tomcat**.
+At the end after success build, you will have a file with name <b>WebShop.war</b>.
+Put the file into /webapp in <b>Apache Tomcat</b>.
 and launch tomcat.
 
 P.S. If There will be some trouble with connect to DB:
-Into file in **Apache Tomcat** /conf/server.xml needs to insert inner data from **context.xml**
+Into file in <b>Apache Tomcat</b> /conf/server.xml needs to insert inner data from <b>context.xml</b>
 
 Here is present my practice with Java EE(Servlet, JSP, ExpressLanguage, MySQL, CSS, HTML, JavaScript, JQuery).
 
@@ -26,7 +26,7 @@ Some of them :
 - if the user is logged in at the right top shows his name and avatar;
 - switch language;
 The application has two languages ru and eng 
-for **menu** and **registration** page
+for <b>menu</b> and <b>registration</b> page
 
 5) Order page user can go there only if it is logged in.
 There is user can edit his order.
