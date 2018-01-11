@@ -11,7 +11,7 @@ Put the file into /webapp in <b>Apache Tomcat</b>.
 and launch tomcat.
 
 P.S. If There will be some trouble with connect to DB:
-Into file in <b>Apache Tomcat</b> /conf/server.xml needs to insert inner data from <b>context.xml</b>
+Into file in <b>Apache Tomcat</b> /conf/server.xml need to insert inner data from <b>context.xml</b>
 
 Here is present my practice with Java EE(Servlet, Filter, Listener, JSP, ExpressLanguage, MySQL, CSS, HTML, JavaScript, JQuery).
 
