@@ -8,5 +8,5 @@
               username="root"
               password="123"
               driverClassName="com.mysql.cj.jdbc.Driver"
-              url="jdbc:mysql://localhost:3306/shopcakes"/>
+              url="jdbc:mysql://mysql-container:3306/shopcakes"/>
 </Context>

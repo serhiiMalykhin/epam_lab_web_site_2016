@@ -3,7 +3,6 @@ package com.epam.malykhin.database.dao.mysql;
 import com.epam.malykhin.database.dao.OrderDAO;
 import com.epam.malykhin.database.entity.Order;
 import com.epam.malykhin.database.entity.User;
-import com.mysql.cj.api.jdbc.Statement;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -23,7 +22,7 @@ public class MySqlOrder implements OrderDAO {
                         ("insert into `" + TABLE_NAME + "` " +
                                 "(`idUser`, `idOrderCart`, `date`, `idStatus`, " +
                                 "`descriptionStatus`, `address`, `card`) " +
-                                "values (?,DEFAULT,?,?,?,?,?)", Statement.RETURN_GENERATED_KEYS);
+                                "values (?,DEFAULT,?,?,?,?,?)");
         preparedStatement.setInt(1, order.getIdUser());
         preparedStatement.setLong(2, order.getDate());
         preparedStatement.setInt(3, order.getStatusOrder().getMask());

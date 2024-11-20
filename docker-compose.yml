@@ -1,0 +1,31 @@
+version: '3.8'
+
+services:
+  tomcat:
+    image: tomcat:9.0.97
+    container_name: tomcat-container
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./target/WebShop.war:/usr/local/tomcat/webapps/WebShop.war
+#      - ./config/server.xml:/usr/local/tomcat/conf/server.xml
+    environment:
+      - CATALINA_OPTS=-Xms512m -Xmx1024m
+    depends_on:
+      - mysql
+
+  mysql:
+    image: mysql:8.0
+    container_name: mysql-container
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: "123"
+      MYSQL_ROOT_USER: "admin"
+      MYSQL_DATABASE: "shopcakes"
+    volumes:
+      - mysql-data:/var/lib/mysql  # Persistent data
+      - ./sql:/docker-entrypoint-initdb.d  # Auto-run SQL scripts
+
+volumes:
+  mysql-data:

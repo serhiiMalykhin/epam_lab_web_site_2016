@@ -19,17 +19,17 @@ create table manufacturer
 )
 ;
 
-create table `order`
-(
-  iduser int null,
-  idOrderCart int not null auto_increment,
-  date bigint not null,
-  idStatus int not null,
-  descriptionStatus varchar(255) not null,
-  address varchar(150) not null,
-  card varchar(19) not null
-)
-;
+CREATE TABLE `order` (
+  idOrderCart INT NOT NULL AUTO_INCREMENT,  -- Primary key for the order, auto-incremented
+  iduser INT NULL,  -- Nullable if the user is not mandatory
+  date BIGINT NOT NULL,  -- Unix timestamp (if needed, otherwise consider DATETIME)
+  idStatus INT NOT NULL,  -- Status of the order (integer representing status)
+  descriptionStatus VARCHAR(255) NOT NULL,  -- Description of the status (e.g., "Pending", "Shipped")
+  address VARCHAR(150) NOT NULL,  -- Delivery address
+  card VARCHAR(19) NOT NULL,  -- Card number, possibly sensitive data (needs proper handling)
+
+  PRIMARY KEY (idOrderCart)  -- Primary key constraint on `idOrderCart`
+);
 
 create index idStatus
   on `order` (idStatus)
